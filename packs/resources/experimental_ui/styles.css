@@ -5,7 +5,7 @@
 */
 @font-face {
   font-family:"NotoSerifSC-Regular";
-  src:url("id://NotoSansCJK-Regular");
+  src:url("fonts/NotoSerifSC-Regular.otf");
 }
 * {
 	font-family:"NotoSerifSC-Regular";
