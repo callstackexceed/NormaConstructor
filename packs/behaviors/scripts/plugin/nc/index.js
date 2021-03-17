@@ -6,6 +6,7 @@ import {
     Coordinate,
     Position,
     BlockType,
+    BuildInstruction,
 } from '../../constructor.js';
 import { canonicalGeneratorFactory } from '../../framework.js';
 import { utils } from './utils.js';
