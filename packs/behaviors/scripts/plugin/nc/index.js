@@ -1637,7 +1637,7 @@ system.registerCanonicalGenerator({
             let { state } = e;
             let coordinate = state.positions[0].coordinate
 
-            presetBuildings.length = presetBuildings.keys().length;
+            presetBuildings.subway_station.length = presetBuildings.subway_station.keys().length;
             return Array.from(presetBuildings.subway_station, a => new Block(new Position(new Coordinate(
                 coordinate.x + a.coordinate.x, coordinate.y + a.coordinate.y, coordinate.z + a.coordinate.z
             ), state.positions[0].tickingArea), a.blockType))
