@@ -1,6 +1,7 @@
 {
   "name": "normaconstructor",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "gulp build",
     "watch": "gulp watch",
